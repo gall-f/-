@@ -1,2 +1,5 @@
 name = input("Введите имя: ")
 print("с добрым утром, ", name, "!", sep = '')
+a,b = input("Введите два целых числа: ").split()
+a,b = int(a), int(b)
+print(a,b)
