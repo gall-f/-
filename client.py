@@ -1,2 +1,2 @@
-
-print("Hello, name!")
+name = input("Введите имя: ")
+print("Hello, ", name, "!",sep = '')
